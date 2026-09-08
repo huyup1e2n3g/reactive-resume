@@ -274,7 +274,7 @@ msgstr "Hành động"
 msgid "Activate Semantic CSS"
 msgstr "Kích hoạt CSS ngữ nghĩa"
 
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 msgid "Active"
 msgstr ""
 
@@ -501,7 +501,7 @@ msgstr "Đại lý"
 msgid "AI"
 msgstr "AI"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "AI Agent Engineer — Supported"
 msgstr ""
 
@@ -728,8 +728,8 @@ msgstr "Tiếng Ả Rập"
 msgid "Archive"
 msgstr "Lưu trữ"
 
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 #: src/routes/dashboard/applications/index.tsx
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
 msgid "Archived"
 msgstr "Đã lưu trữ"
 
@@ -986,6 +986,7 @@ msgstr "Tôi có thể xuất sơ yếu lý lịch của mình ra PDF không?"
 #: src/features/applications/components/application-form-sheet.tsx
 #: src/features/applications/components/export-applications-sheet.tsx
 #: src/features/applications/components/import-applications-sheet.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/features/resume/builder/password-dialog.tsx
 #: src/features/settings/integrations/components/ai-section.tsx
 #: src/features/settings/pages/account.tsx
@@ -1132,6 +1133,10 @@ msgid "Choose an application"
 msgstr "Chọn một ứng dụng"
 
 #: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Choose an occupational direction and define the role you are targeting now."
+msgstr ""
+
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Choose an occupational direction, then describe the role you are targeting now."
 msgstr ""
 
@@ -1466,7 +1471,7 @@ msgstr "Không thể xác minh kết nối. Vui lòng kiểm tra khóa API, mô 
 msgid "Couldn't add the application. Please try again."
 msgstr "Không thể thêm hồ sơ ứng tuyển. Vui lòng thử lại."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Couldn't create the Role Workspace. Check the form and try again."
 msgstr ""
 
@@ -1647,10 +1652,6 @@ msgstr "Tạo mục tóm tắt mới"
 msgid "Create a new volunteer experience"
 msgstr "Tạo hoạt động tình nguyện mới"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "Create a Role Workspace"
-msgstr ""
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "Tạo sơ yếu lý lịch mẫu"
@@ -1677,8 +1678,17 @@ msgstr "Tạo ngay bây giờ"
 msgid "Create resume with options"
 msgstr "Tạo sơ yếu lý lịch với các tùy chọn"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
+msgid "Create Role Workspace"
+msgstr ""
+
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Create workspace"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create your first Role Workspace"
 msgstr ""
 
 #: src/routes/_home/-sections/features.tsx
@@ -1702,7 +1712,7 @@ msgstr "Đang tạo khóa API của bạn..."
 msgid "Creating your resume..."
 msgstr "Đang tạo sơ yếu lý lịch của bạn..."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Creating…"
 msgstr ""
 
@@ -2045,7 +2055,7 @@ msgstr "Tải xuống PDF"
 msgid "Downloads"
 msgstr "Tải về"
 
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 msgid "Draft"
 msgstr ""
 
@@ -2322,13 +2332,14 @@ msgstr "Thoát toàn màn hình"
 msgid "Experience"
 msgstr "Kinh nghiệm"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
 #: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Experimental"
 msgstr ""
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Experimental roles do not have the evaluated quality guarantee of supported roles."
 msgstr ""
 
@@ -3812,10 +3823,6 @@ msgstr "Không có hồ sơ nào phù hợp với yêu cầu tìm kiếm của b
 msgid "No resumes yet."
 msgstr "Chưa có sơ yếu lý lịch nào."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "No Role Workspaces yet. Create your first direction above."
-msgstr ""
-
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "No saved versions yet."
 msgstr "Chưa có phiên bản nào được lưu."
@@ -4039,7 +4046,7 @@ msgstr "Tổ chức"
 msgid "Original table formatting is preserved. This content is read-only because it cannot be edited safely."
 msgstr "Định dạng bảng gốc được giữ nguyên. Nội dung này ở chế độ chỉ đọc vì không thể chỉnh sửa một cách an toàn."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Other role — Experimental"
 msgstr ""
 
@@ -4784,7 +4791,7 @@ msgstr "Vai trò / chức danh"
 msgid "Role A–Z"
 msgstr "Vai trò A–Z"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Role name"
 msgstr ""
 
@@ -4796,7 +4803,7 @@ msgstr "Tiến trình vai trò"
 msgid "Role Target"
 msgstr ""
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Role Workspace created."
 msgstr ""
 
@@ -5451,8 +5458,8 @@ msgstr "Khoảng cách (Dọc)"
 msgid "Spanish"
 msgstr "Tây Ban Nha"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Specialization"
 msgstr ""
 
@@ -5664,16 +5671,16 @@ msgstr "Tinh chỉnh thất bại."
 msgid "Tamil"
 msgstr "Tamil"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Target location"
 msgstr ""
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Target Role"
 msgstr ""
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Target seniority"
 msgstr ""
 
@@ -7069,10 +7076,6 @@ msgstr "Sơ yếu lý lịch của bạn sử dụng \"tôi\" và \"của tôi\"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Your resume's public URL is protected by a password. Share the password only with people you trust."
 msgstr "URL công khai của sơ yếu lý lịch của bạn được bảo vệ bằng mật khẩu. Chỉ chia sẻ mật khẩu với những người bạn tin tưởng."
-
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "Your Role Workspaces"
-msgstr ""
 
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Your saved cover letter will remain unchanged."

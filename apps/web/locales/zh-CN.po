@@ -274,7 +274,7 @@ msgstr "操作"
 msgid "Activate Semantic CSS"
 msgstr "启用语义化 CSS"
 
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 msgid "Active"
 msgstr ""
 
@@ -501,7 +501,7 @@ msgstr "代理人"
 msgid "AI"
 msgstr "AI（人工智能）"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "AI Agent Engineer — Supported"
 msgstr ""
 
@@ -728,8 +728,8 @@ msgstr "阿拉伯语"
 msgid "Archive"
 msgstr "归档"
 
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 #: src/routes/dashboard/applications/index.tsx
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
 msgid "Archived"
 msgstr "已归档"
 
@@ -986,6 +986,7 @@ msgstr "我可以把简历导出为 PDF 吗？"
 #: src/features/applications/components/application-form-sheet.tsx
 #: src/features/applications/components/export-applications-sheet.tsx
 #: src/features/applications/components/import-applications-sheet.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/features/resume/builder/password-dialog.tsx
 #: src/features/settings/integrations/components/ai-section.tsx
 #: src/features/settings/pages/account.tsx
@@ -1132,6 +1133,10 @@ msgid "Choose an application"
 msgstr "选择申请"
 
 #: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Choose an occupational direction and define the role you are targeting now."
+msgstr ""
+
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Choose an occupational direction, then describe the role you are targeting now."
 msgstr ""
 
@@ -1466,7 +1471,7 @@ msgstr "连接验证失败。请检查 API 密钥、模型和基本 URL。"
 msgid "Couldn't add the application. Please try again."
 msgstr "无法添加申请。请重试。"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Couldn't create the Role Workspace. Check the form and try again."
 msgstr ""
 
@@ -1647,10 +1652,6 @@ msgstr "创建新摘要项"
 msgid "Create a new volunteer experience"
 msgstr "创建新的志愿者经历"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "Create a Role Workspace"
-msgstr ""
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "创建简历样例"
@@ -1677,8 +1678,17 @@ msgstr "现在就创建一个"
 msgid "Create resume with options"
 msgstr "创建带有选项的简历"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
+msgid "Create Role Workspace"
+msgstr ""
+
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Create workspace"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create your first Role Workspace"
 msgstr ""
 
 #: src/routes/_home/-sections/features.tsx
@@ -1702,7 +1712,7 @@ msgstr "正在创建你的 API key…"
 msgid "Creating your resume..."
 msgstr "正在创建你的简历…"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Creating…"
 msgstr ""
 
@@ -2045,7 +2055,7 @@ msgstr "下载为 PDF 文档"
 msgid "Downloads"
 msgstr "下载"
 
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 msgid "Draft"
 msgstr ""
 
@@ -2322,13 +2332,14 @@ msgstr "退出全屏"
 msgid "Experience"
 msgstr "工作经历"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
 #: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Experimental"
 msgstr ""
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Experimental roles do not have the evaluated quality guarantee of supported roles."
 msgstr ""
 
@@ -3812,10 +3823,6 @@ msgstr "没有简历符合您的搜索条件。"
 msgid "No resumes yet."
 msgstr "还没有简历。"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "No Role Workspaces yet. Create your first direction above."
-msgstr ""
-
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "No saved versions yet."
 msgstr "暂无已保存版本。"
@@ -4039,7 +4046,7 @@ msgstr "组织"
 msgid "Original table formatting is preserved. This content is read-only because it cannot be edited safely."
 msgstr "原始表格格式已保留。由于无法安全编辑，此内容为只读。"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Other role — Experimental"
 msgstr ""
 
@@ -4784,7 +4791,7 @@ msgstr "职位 / 头衔"
 msgid "Role A–Z"
 msgstr "职位 A–Z"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Role name"
 msgstr ""
 
@@ -4796,7 +4803,7 @@ msgstr "职位晋升"
 msgid "Role Target"
 msgstr ""
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Role Workspace created."
 msgstr ""
 
@@ -5451,8 +5458,8 @@ msgstr "间距（垂直）"
 msgid "Spanish"
 msgstr "西班牙语"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Specialization"
 msgstr ""
 
@@ -5664,16 +5671,16 @@ msgstr "定制失败。"
 msgid "Tamil"
 msgstr "泰米尔语"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Target location"
 msgstr ""
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Target Role"
 msgstr ""
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Target seniority"
 msgstr ""
 
@@ -7069,10 +7076,6 @@ msgstr "你的简历使用了“我”和“我的”这类词。"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Your resume's public URL is protected by a password. Share the password only with people you trust."
 msgstr "你简历的公开 URL 受密码保护。请只把密码分享给你信任的人。"
-
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "Your Role Workspaces"
-msgstr ""
 
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Your saved cover letter will remain unchanged."

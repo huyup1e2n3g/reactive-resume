@@ -274,7 +274,7 @@ msgstr "പ്രവർത്തനങ്ങൾ"
 msgid "Activate Semantic CSS"
 msgstr "സെമാന്റിക് CSS സജീവമാക്കുക"
 
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 msgid "Active"
 msgstr ""
 
@@ -501,7 +501,7 @@ msgstr "ഏജന്റുമാർ"
 msgid "AI"
 msgstr "AI"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "AI Agent Engineer — Supported"
 msgstr ""
 
@@ -728,8 +728,8 @@ msgstr "അറബിക്"
 msgid "Archive"
 msgstr "ആർക്കൈവ്"
 
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 #: src/routes/dashboard/applications/index.tsx
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
 msgid "Archived"
 msgstr "ആർക്കൈവ് ചെയ്തു"
 
@@ -986,6 +986,7 @@ msgstr "എന്റെ റിസ്യൂം PDF ആയി എക്സ്പ�
 #: src/features/applications/components/application-form-sheet.tsx
 #: src/features/applications/components/export-applications-sheet.tsx
 #: src/features/applications/components/import-applications-sheet.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/features/resume/builder/password-dialog.tsx
 #: src/features/settings/integrations/components/ai-section.tsx
 #: src/features/settings/pages/account.tsx
@@ -1132,6 +1133,10 @@ msgid "Choose an application"
 msgstr "ഒരു ആപ്ലിക്കേഷൻ തിരഞ്ഞെടുക്കുക"
 
 #: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Choose an occupational direction and define the role you are targeting now."
+msgstr ""
+
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Choose an occupational direction, then describe the role you are targeting now."
 msgstr ""
 
@@ -1466,7 +1471,7 @@ msgstr "കണക്ഷൻ പരിശോധിക്കാൻ കഴിഞ്�
 msgid "Couldn't add the application. Please try again."
 msgstr "ആപ്ലിക്കേഷൻ ചേർക്കാൻ കഴിഞ്ഞില്ല. ദയവായി again ശ്രമിക്കുക."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Couldn't create the Role Workspace. Check the form and try again."
 msgstr ""
 
@@ -1647,10 +1652,6 @@ msgstr "പുതിയ സംഗ്രഹ ഇനം സൃഷ്ടിക്ക
 msgid "Create a new volunteer experience"
 msgstr "ഒരു പുതിയ വളന്റിയർ അനുഭവം സൃഷ്‌ടിക്കുക"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "Create a Role Workspace"
-msgstr ""
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "ഒരു സാമ്പിള്‍ റിസ്യൂം സൃഷ്‌ടിക്കുക"
@@ -1677,8 +1678,17 @@ msgstr "ഇപ്പോൾ ഒരെണ്ണം ഉണ്ടാക്കുക"
 msgid "Create resume with options"
 msgstr "ഓപ്ഷനുകളോടുകൂടി റെസ്യൂമെ ഉണ്ടാക്കുക"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
+msgid "Create Role Workspace"
+msgstr ""
+
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Create workspace"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create your first Role Workspace"
 msgstr ""
 
 #: src/routes/_home/-sections/features.tsx
@@ -1702,7 +1712,7 @@ msgstr "നിങ്ങളുടെ API കീ സൃഷ്‌ടിക്കു
 msgid "Creating your resume..."
 msgstr "നിങ്ങളുടെ റിസ്യൂം സൃഷ്‌ടിക്കുന്നു..."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Creating…"
 msgstr ""
 
@@ -2045,7 +2055,7 @@ msgstr "PDF ഡൗൺലോഡ് ചെയ്യുക"
 msgid "Downloads"
 msgstr "ഡൗൺലോഡുകൾ"
 
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 msgid "Draft"
 msgstr ""
 
@@ -2322,13 +2332,14 @@ msgstr "മുഴുവൻ സ്ക്രീനിൽ നിന്ന് പു
 msgid "Experience"
 msgstr "അനുഭവം"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
 #: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Experimental"
 msgstr ""
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Experimental roles do not have the evaluated quality guarantee of supported roles."
 msgstr ""
 
@@ -3812,10 +3823,6 @@ msgstr "നിങ്ങളുടെ തിരയലുമായി പൊരു�
 msgid "No resumes yet."
 msgstr "ഇതുവരെ റെസ്യൂമുകളൊന്നുമില്ല."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "No Role Workspaces yet. Create your first direction above."
-msgstr ""
-
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "No saved versions yet."
 msgstr "ഇതുവരെ സംരക്ഷിച്ച പതിപ്പുകളൊന്നുമില്ല."
@@ -4039,7 +4046,7 @@ msgstr "സ്ഥാപനം"
 msgid "Original table formatting is preserved. This content is read-only because it cannot be edited safely."
 msgstr "യഥാർത്ഥ പട്ടിക ഫോർമാറ്റിംഗ് സംരക്ഷിച്ചിരിക്കുന്നു. ഈ ഉള്ളടക്കം സുരക്ഷിതമായി എഡിറ്റ് ചെയ്യാൻ കഴിയാത്തതിനാൽ വായിക്കാൻ മാത്രമുള്ളതാണ്."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Other role — Experimental"
 msgstr ""
 
@@ -4784,7 +4791,7 @@ msgstr "റോൾ / തലക്കെട്ട്"
 msgid "Role A–Z"
 msgstr "റോൾ A–Z"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Role name"
 msgstr ""
 
@@ -4796,7 +4803,7 @@ msgstr "റോൾ പുരോഗതി"
 msgid "Role Target"
 msgstr ""
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Role Workspace created."
 msgstr ""
 
@@ -5451,8 +5458,8 @@ msgstr "സ്പേസിംഗ് (ലംബം)"
 msgid "Spanish"
 msgstr "സ്പാനിഷ്"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Specialization"
 msgstr ""
 
@@ -5664,16 +5671,16 @@ msgstr "ടെയ്ലറിംഗ് പരാജയപ്പെട്ടു."
 msgid "Tamil"
 msgstr "തമിഴ്"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Target location"
 msgstr ""
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Target Role"
 msgstr ""
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Target seniority"
 msgstr ""
 
@@ -7069,10 +7076,6 @@ msgstr "നിങ്ങളുടെ റിസ്യൂം \"I\", \"my\" എന�
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Your resume's public URL is protected by a password. Share the password only with people you trust."
 msgstr "നിങ്ങളുടെ റിസ്യൂമിന്റെ പൊതു URL ഒരു പാസ്‌വേഡ് കൊണ്ട് സംരക്ഷിച്ചിരിക്കുന്നു. നിങ്ങൾ വിശ്വസിക്കുന്നവരുമായി മാത്രം പാസ്‌വേഡ് പങ്കിടുക."
-
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "Your Role Workspaces"
-msgstr ""
 
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Your saved cover letter will remain unchanged."

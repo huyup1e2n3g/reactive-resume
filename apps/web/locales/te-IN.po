@@ -274,7 +274,7 @@ msgstr "చర్యలు"
 msgid "Activate Semantic CSS"
 msgstr "సెమాంటిక్ CSSని యాక్టివేట్ చేయండి"
 
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 msgid "Active"
 msgstr ""
 
@@ -501,7 +501,7 @@ msgstr "ఏజెంట్లు"
 msgid "AI"
 msgstr "AI"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "AI Agent Engineer — Supported"
 msgstr ""
 
@@ -728,8 +728,8 @@ msgstr "అరబిక్"
 msgid "Archive"
 msgstr "ఆర్కైవ్"
 
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 #: src/routes/dashboard/applications/index.tsx
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
 msgid "Archived"
 msgstr "ఆర్కైవ్ చేయబడింది"
 
@@ -986,6 +986,7 @@ msgstr "నేను నా రిజ్యూమ్‌ని PDFగా ఎగ�
 #: src/features/applications/components/application-form-sheet.tsx
 #: src/features/applications/components/export-applications-sheet.tsx
 #: src/features/applications/components/import-applications-sheet.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/features/resume/builder/password-dialog.tsx
 #: src/features/settings/integrations/components/ai-section.tsx
 #: src/features/settings/pages/account.tsx
@@ -1132,6 +1133,10 @@ msgid "Choose an application"
 msgstr "అప్లికేషన్‌ను ఎంచుకోండి"
 
 #: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Choose an occupational direction and define the role you are targeting now."
+msgstr ""
+
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Choose an occupational direction, then describe the role you are targeting now."
 msgstr ""
 
@@ -1466,7 +1471,7 @@ msgstr "కనెక్షన్‌ను ధృవీకరించలేక�
 msgid "Couldn't add the application. Please try again."
 msgstr "దరఖాస్తును జోడించలేకపోయాం. దయచేసి మళ్లీ ప్రయత్నించండి."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Couldn't create the Role Workspace. Check the form and try again."
 msgstr ""
 
@@ -1647,10 +1652,6 @@ msgstr "కొత్త సారాంశ అంశం సృష్టించ
 msgid "Create a new volunteer experience"
 msgstr "క్రొత్త వాలంటీర్ అనుభవాన్ని సృష్టించండి"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "Create a Role Workspace"
-msgstr ""
-
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "నమూనా రిజ్యూమ్ సృష్టించండి"
@@ -1677,8 +1678,17 @@ msgstr "ఇప్పుడే సృష్టించండి"
 msgid "Create resume with options"
 msgstr "ఎంపికలతో రెస్యూమ్ సృష్టించండి"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
+msgid "Create Role Workspace"
+msgstr ""
+
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Create workspace"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create your first Role Workspace"
 msgstr ""
 
 #: src/routes/_home/-sections/features.tsx
@@ -1702,7 +1712,7 @@ msgstr "మీ API కీ సృష్టించబడుతోంది..."
 msgid "Creating your resume..."
 msgstr "మీ రిజ్యూమ్ సృష్టించబడుతోంది..."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Creating…"
 msgstr ""
 
@@ -2045,7 +2055,7 @@ msgstr "PDF ను డౌన్‌లోడ్ చేయండి"
 msgid "Downloads"
 msgstr "డౌన్‌లోడ్‌లు"
 
-#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+#: src/features/career-workspace/components/workspace-status-badge.tsx
 msgid "Draft"
 msgstr ""
 
@@ -2322,13 +2332,14 @@ msgstr "పూర్తి స్క్రీన్ నుండి నిష్
 msgid "Experience"
 msgstr "అనుభవం"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
 #: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Experimental"
 msgstr ""
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Experimental roles do not have the evaluated quality guarantee of supported roles."
 msgstr ""
 
@@ -3812,10 +3823,6 @@ msgstr "మీ శోధనకు సరిపోయే రెజ్యూమె
 msgid "No resumes yet."
 msgstr "ఇంకా రెజ్యూమ్‌లు లేవు."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "No Role Workspaces yet. Create your first direction above."
-msgstr ""
-
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "No saved versions yet."
 msgstr "ఇంకా సేవ్ చేసిన వెర్షన్లు ఏవీ లేవు."
@@ -4039,7 +4046,7 @@ msgstr "ఆర్గనైజేషన్"
 msgid "Original table formatting is preserved. This content is read-only because it cannot be edited safely."
 msgstr "అసలు టేబుల్ ఫార్మాటింగ్ భద్రపరచబడింది. ఈ కంటెంట్ సురక్షితంగా సవరించబడనందున చదవడానికి మాత్రమే."
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Other role — Experimental"
 msgstr ""
 
@@ -4784,7 +4791,7 @@ msgstr "పాత్ర / హోదా"
 msgid "Role A–Z"
 msgstr "పాత్ర A–Z"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Role name"
 msgstr ""
 
@@ -4796,7 +4803,7 @@ msgstr "పాత్ర పురోగతి"
 msgid "Role Target"
 msgstr ""
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Role Workspace created."
 msgstr ""
 
@@ -5451,8 +5458,8 @@ msgstr "స్పేసింగ్ (నిలువుగా)"
 msgid "Spanish"
 msgstr "స్పానిష్"
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Specialization"
 msgstr ""
 
@@ -5664,16 +5671,16 @@ msgstr "అనుకూలీకరణ విఫలమైంది."
 msgid "Tamil"
 msgstr "తమిళ్"
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Target location"
 msgstr ""
 
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 #: src/routes/dashboard/role-workspaces/$workspaceId.tsx
-#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Target Role"
 msgstr ""
 
-#: src/routes/dashboard/role-workspaces/index.tsx
+#: src/features/career-workspace/components/role-workspace-form-sheet.tsx
 msgid "Target seniority"
 msgstr ""
 
@@ -7069,10 +7076,6 @@ msgstr "మీ రెజ్యూమ్ \"I\" మరియు \"my\" ఉపయ�
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Your resume's public URL is protected by a password. Share the password only with people you trust."
 msgstr "మీ రెజ్యూమ్ పబ్లిక్ URL పాస్‌వర్డ్‌తో రక్షించబడింది. మీరు నమ్మే వాళ్లతో మాత్రమే పాస్‌వర్డ్‌ను పంచుకోండి."
-
-#: src/routes/dashboard/role-workspaces/index.tsx
-msgid "Your Role Workspaces"
-msgstr ""
 
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Your saved cover letter will remain unchanged."

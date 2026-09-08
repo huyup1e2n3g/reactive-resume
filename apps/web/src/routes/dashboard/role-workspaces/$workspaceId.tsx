@@ -6,9 +6,9 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { Badge } from "@reactive-resume/ui/components/badge";
 import { Button } from "@reactive-resume/ui/components/button";
 import { Separator } from "@reactive-resume/ui/components/separator";
+import { WorkspaceStatusBadge } from "@/features/career-workspace/components/workspace-status-badge";
 import { orpc } from "@/libs/orpc/client";
 import { DashboardHeader } from "../-components/header";
-import { WorkspaceStatusBadge } from "./-workspace-status-badge";
 
 export const Route = createFileRoute("/dashboard/role-workspaces/$workspaceId")({
 	component: RouteComponent,
