@@ -6,6 +6,7 @@ import {
 	BrainIcon,
 	BriefcaseIcon,
 	ChatCircleDotsIcon,
+	CompassIcon,
 	EnvelopeSimpleIcon,
 	GearSixIcon,
 	KeyIcon,
@@ -48,6 +49,11 @@ type SidebarItem = {
 };
 
 const appSidebarItems = [
+	{
+		icon: <CompassIcon />,
+		label: msg`Role Workspaces`,
+		href: "/dashboard/role-workspaces",
+	},
 	{
 		icon: <ReadCvLogoIcon />,
 		label: msg`Resumes`,

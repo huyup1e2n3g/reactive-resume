@@ -274,6 +274,10 @@ msgstr "କାର୍ଯ୍ୟଗୁଡ଼ିକ"
 msgid "Activate Semantic CSS"
 msgstr "ସିମାଣ୍ଟିକ୍ CSS ସକ୍ରିୟ କରନ୍ତୁ"
 
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+msgid "Active"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/dock.tsx
 msgid "Actual size (100%)"
 msgstr "ପ୍ରକୃତ ଆକାର (୧୦୦%)"
@@ -497,6 +501,10 @@ msgstr "ଏଜେଣ୍ଟମାନେ"
 msgid "AI"
 msgstr "AI"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "AI Agent Engineer — Supported"
+msgstr ""
+
 #: src/routes/agent/-components/new-thread-setup.tsx
 msgid "AI agent setup is unavailable right now. Please try again in a moment."
 msgstr "AI ଏଜେଣ୍ଟ ସେଟଅପ୍ ବର୍ତ୍ତମାନ ଉପଲବ୍ଧ ନାହିଁ। ଦୟାକରି କିଛି ସମୟ ମଧ୍ୟରେ ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ।"
@@ -540,6 +548,10 @@ msgstr "ଆଲବାନିଆନ୍"
 #: src/features/applications/components/export-applications-sheet.tsx
 msgid "All applications (including archived)"
 msgstr "ସମସ୍ତ ପ୍ରୟୋଗଗୁଡ଼ିକ (ଅଭିଲେଖାଗାରକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରି)"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "All Role Workspaces"
+msgstr ""
 
 #: src/features/auth/pages/consent.tsx
 msgid "Allow access"
@@ -717,6 +729,7 @@ msgid "Archive"
 msgstr "ଆର୍କାଇଭ୍ କରନ୍ତୁ"
 
 #: src/routes/dashboard/applications/index.tsx
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
 msgid "Archived"
 msgstr "ସଂଗୃହିତ"
 
@@ -850,6 +863,10 @@ msgstr "ପ୍ରମାଣୀକରଣ ସେଟିଂସ୍‌କୁ ଫେର�
 #: src/routes/agent/-components/thread-sidebar.tsx
 msgid "Back to resumes"
 msgstr "ରିଜ୍ୟୁମକୁ ଫେରନ୍ତୁ"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Back to Role Workspaces"
+msgstr ""
 
 #. Action returning the visitor to the sign-in page after a failed sign-in
 #. Secondary navigation button on 2FA verification screen
@@ -1113,6 +1130,10 @@ msgstr "ଏକ ସଞ୍ଚିତ କଭର ଅକ୍ଷର ବାଛନ୍ତ�
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Choose an application"
 msgstr "ଏକ ଅନୁପ୍ରୟୋଗ ବାଛନ୍ତୁ |"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Choose an occupational direction, then describe the role you are targeting now."
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
 msgid "Choose PDF, DOCX, Markdown, or JSON. Export your resume and cover letter separately when available."
@@ -1445,6 +1466,10 @@ msgstr "ସଂଯୋଗ ଯାଞ୍ଚ କରିପାରିଲା ନାହି
 msgid "Couldn't add the application. Please try again."
 msgstr "ଆବେଦନ ଯୋଗ କରିପାରିବ ନାହିଁ | ଦୟାକରି again ଚେଷ୍ଟା କରନ୍ତୁ |"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Couldn't create the Role Workspace. Check the form and try again."
+msgstr ""
+
 #: src/features/applications/components/application-actions-menu.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
 msgid "Couldn't delete the application."
@@ -1453,6 +1478,10 @@ msgstr "ଆବେଦନ ବିଲୋପ କରିପାରିଲା ନାହି
 #: src/features/applications/components/application-detail-sheet.tsx
 msgid "Couldn't delete the timeline entry."
 msgstr "ସମୟରେଖା ପ୍ରବେଶକୁ ଡିଲିଟ୍ କରିପାରିଲା ନାହିଁ।"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Couldn't load Role Workspaces."
+msgstr ""
 
 #: src/features/applications/components/board.tsx
 msgid "Couldn't move the application. Please try again."
@@ -1618,6 +1647,10 @@ msgstr "ନୂଆ ସାରାଂଶ ଆଇଟମ୍ ସୃଷ୍ଟି କର�
 msgid "Create a new volunteer experience"
 msgstr "ଗୋଟିଏ ନୂତନ ସ୍ୱେଚ୍ଛାସେବୀ ଅଭିଜ୍ଞତା ତିଆରି କରନ୍ତୁ"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create a Role Workspace"
+msgstr ""
+
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "ଗୋଟିଏ ନମୁନା ରେଜ୍ୟୁମେ ତିଆରି କରନ୍ତୁ"
@@ -1644,6 +1677,10 @@ msgstr "ଏବେ ଗୋଟିଏ ତିଆରି କରନ୍ତୁ"
 msgid "Create resume with options"
 msgstr "ବିକଳ୍ପ ସହ ରେଜ୍ୟୁମେ ସୃଷ୍ଟି କରନ୍ତୁ"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create workspace"
+msgstr ""
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Create, customize, and share your resume. Reactive Resume is open source, it doesn't track you, and it stays free."
 msgstr "ଆପଣଙ୍କ ରେଜ୍ୟୁମେ ତିଆରି କରନ୍ତୁ, ନିଜ ଇଚ୍ଛାନୁସାରେ ସଜାନ୍ତୁ, ଏବଂ ସେୟାର୍ କରନ୍ତୁ। Reactive Resume ଖୋଲା-ମୂଳ, ଏହା ଆପଣଙ୍କୁ ଟ୍ରାକ୍ କରେ ନାହିଁ, ଏବଂ ଏହା ନିଶୁଳ୍କ ହିଁ ରହିଥାଏ।"
@@ -1665,6 +1702,10 @@ msgstr "ଆପଣଙ୍କ API କି ତିଆରି ହେଉଛି..."
 msgid "Creating your resume..."
 msgstr "ଆପଣଙ୍କ ରେଜ୍ୟୁମେ ତିଆରି ହେଉଛି..."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Creating…"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Crop and Upload"
 msgstr "ଛବି କ୍ରପ୍ କରନ୍ତୁ ଏବଂ ଅପଲୋଡ୍ କରନ୍ତୁ"
@@ -1676,6 +1717,10 @@ msgstr "ଫଟୋ କ୍ରପ୍ କରନ୍ତୁ"
 #: src/features/applications/components/import-applications-sheet.tsx
 msgid "CSV data"
 msgstr "CSV ତଥ୍ୟ |"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Current constraints for this occupational direction."
+msgstr ""
 
 #: src/features/applications/components/export-applications-sheet.tsx
 msgid "Current filters"
@@ -2000,6 +2045,10 @@ msgstr "PDF ଡାଉନଲୋଡ୍ କରନ୍ତୁ"
 msgid "Downloads"
 msgstr "ଡାଉନଲୋଡ୍‌ଗୁଡିକ"
 
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+msgid "Draft"
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Draft a cover letter"
 msgstr "ଏକ ଆବରଣ ପତ୍ର ପ୍ରସ୍ତୁତ କରନ୍ତୁ |"
@@ -2272,6 +2321,16 @@ msgstr "ପୂର୍ଣ୍ଣ ସ୍କ୍ରିନରୁ ବାହାରକୁ 
 #: src/libs/resume/section.tsx
 msgid "Experience"
 msgstr "ଅନୁଭବ"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Experimental"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Experimental roles do not have the evaluated quality guarantee of supported roles."
+msgstr ""
 
 #: src/dialogs/api-key/create.tsx
 msgid "Expires in"
@@ -3370,6 +3429,14 @@ msgstr "ପ୍ରଦାନକାରୀମାନଙ୍କୁ ଲୋଡ୍ କର�
 msgid "Loading resumes…"
 msgstr "ରିଜ୍ୟୁମ୍ ଲୋଡ୍ ହେଉଛି…"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Loading Role Workspace…"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Loading Role Workspaces…"
+msgstr ""
+
 #: src/features/command-palette/pages/resumes.tsx
 #: src/routes/agent/-components/thread-sidebar.tsx
 msgid "Loading threads…"
@@ -3386,6 +3453,7 @@ msgstr "ଲୋଡ୍ ହେଉଛି…"
 #: src/features/applications/components/table-view.tsx
 #: src/features/ats-checker/parse-preview.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
 msgid "Location"
 msgstr "ଅବସ୍ଥାନ"
 
@@ -3744,6 +3812,10 @@ msgstr "ଆପଣଙ୍କ ସନ୍ଧାନ ସହ କୌଣସି ରିଜ�
 msgid "No resumes yet."
 msgstr "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ରେଜ୍ୟୁମେ ନାହିଁ।"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "No Role Workspaces yet. Create your first direction above."
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "No saved versions yet."
 msgstr "ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ସେଭ୍ କରାଯାଇଥିବା ସଂସ୍କରଣ ନାହିଁ।"
@@ -3966,6 +4038,10 @@ msgstr "ସଂଗଠନ"
 #: src/components/input/rich-input.tsx
 msgid "Original table formatting is preserved. This content is read-only because it cannot be edited safely."
 msgstr "ମୂଳ ଟେବୁଲ୍ ଫର୍ମାଟିଂ ସଂରକ୍ଷିତ | ଏହି ବିଷୟବସ୍ତୁ କେବଳ ପଠନୀୟ କାରଣ ଏହା ସୁରକ୍ଷିତ ଭାବରେ ସମ୍ପାଦିତ ହୋଇପାରିବ ନାହିଁ |"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Other role — Experimental"
+msgstr ""
 
 #: src/features/ats-checker/report/score-header.tsx
 msgid "out of 100"
@@ -4708,9 +4784,26 @@ msgstr "ଭୂମିକା / ଆଖ୍ୟା"
 msgid "Role A–Z"
 msgstr "ଭୂମିକା A–Z"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role name"
+msgstr ""
+
 #: src/dialogs/resume/sections/experience.tsx
 msgid "Role Progression"
 msgstr "ଭୂମିକା ପ୍ରଗତି"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Role Target"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role Workspace created."
+msgstr ""
+
+#: src/routes/dashboard/-components/sidebar.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role Workspaces"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Romanian"
@@ -4980,6 +5073,10 @@ msgstr "ଆପଣଙ୍କ PDF ରୁ ପୂର୍ବରୁ ବାହାର କ�
 #: src/features/ats-checker/ai-review/ai-review-card.tsx
 msgid "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
 msgstr "ଆପଣଙ୍କ PDF ରୁ ପୂର୍ବରୁ ବାହାର କରାଯାଇଥିବା ଟେକ୍ସଟ୍, ପ୍ଲସ୍ ଆପଣ ପେଷ୍ଟ କରିଥିବା କାର୍ଯ୍ୟ ବର୍ଣ୍ଣନାକୁ, ତଳେ ଆପଣ ବାଛିଥିବା AI ପ୍ରଦାତାଙ୍କୁ ପଠାଏ। PDF ଫାଇଲ୍ ନିଜେ କେବେ ଅପଲୋଡ୍ ହୁଏ ନାହିଁ।"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Seniority"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Separator"
@@ -5354,6 +5451,11 @@ msgstr "ଉର୍ଦ୍ଧ୍ୱାଧର ଭାବେ ଖାଲି ସ୍ଥା
 msgid "Spanish"
 msgstr "ସ୍ପାନିଶ୍"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Specialization"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Spell the month, as in \"Mar 2022\"."
 msgstr "\"Mar 2022\" ପରି ମାସକୁ ଅକ୍ଷରରେ ଲେଖନ୍ତୁ।"
@@ -5561,6 +5663,19 @@ msgstr "Taioring failed।"
 #: src/libs/locale.ts
 msgid "Tamil"
 msgstr "ତାମିଲ"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target location"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target Role"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target seniority"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Telugu"
@@ -5993,6 +6108,10 @@ msgstr "ଏହି ସମୀକ୍ଷା ଆପଣଙ୍କ ଲେଖା ବି�
 msgid "This role has no description."
 msgstr "ଏହି ଭୂମିକାର କୌଣସି ବର୍ଣ୍ଣନା ନାହିଁ।"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "This Role Workspace could not be loaded."
+msgstr ""
+
 #: src/libs/resume/ats.ts
 msgid "This section has content but never appears."
 msgstr "ଏହି ବିଭାଗରେ ବିଷୟବସ୍ତୁ ଅଛି, କିନ୍ତୁ ଏହା କେବେ ଦେଖାଯାଏ ନାହିଁ।"
@@ -6137,6 +6256,8 @@ msgid "Translations"
 msgstr "ଅନୁବାଦଗୁଡିକ"
 
 #: src/components/layout/error-screen.tsx
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Try again"
 msgstr "ପୁଣି ଚେଷ୍ଟା କରନ୍ତୁ"
 
@@ -6725,6 +6846,10 @@ msgstr "OpenAI କାମ କରନ୍ତୁ"
 msgid "Working…"
 msgstr "କାମ କରୁଛି…"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Workspace setup is saved. Sources and assessment arrive in the next steps."
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Worth a shot"
 msgstr "ଏକ ଗୁଳିର ମୂଲ୍ୟ |"
@@ -6945,6 +7070,10 @@ msgstr "ଆପଣଙ୍କ ରେଜ୍ୟୁମେ \"I\" ଏବଂ \"my\" ବ�
 msgid "Your resume's public URL is protected by a password. Share the password only with people you trust."
 msgstr "ଆପଣଙ୍କ ରେଜ୍ୟୁମେର ସର୍ବସାଧାରଣ URL ଏକ ପାସୱାର୍ଡ ଦ୍ୱାରା ସୁରକ୍ଷିତ। ଆପଣ ବିଶ୍ୱାସ କରୁଥିବା ଲୋକଙ୍କ ସହ ହିଁ ପାସୱାର୍ଡ ବାଣ୍ଟନ୍ତୁ।"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Your Role Workspaces"
+msgstr ""
+
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Your saved cover letter will remain unchanged."
 msgstr "ଆପଣଙ୍କର ସଞ୍ଚିତ କଭର ଅକ୍ଷର ଅପରିବର୍ତ୍ତିତ ରହିବ |"
@@ -6973,4 +7102,3 @@ msgstr "ଜୁମ୍ ଆଉଟ୍ କରନ୍ତୁ"
 #: src/libs/locale.ts
 msgid "Zulu"
 msgstr "ଜୁଲୁ"
-

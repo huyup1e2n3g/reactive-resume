@@ -274,6 +274,10 @@ msgstr "Действия"
 msgid "Activate Semantic CSS"
 msgstr "Активиране на семантичен CSS"
 
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+msgid "Active"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/dock.tsx
 msgid "Actual size (100%)"
 msgstr "Действителен размер (100%)"
@@ -497,6 +501,10 @@ msgstr "Агенти"
 msgid "AI"
 msgstr "AI"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "AI Agent Engineer — Supported"
+msgstr ""
+
 #: src/routes/agent/-components/new-thread-setup.tsx
 msgid "AI agent setup is unavailable right now. Please try again in a moment."
 msgstr "Настройката на AI агент не е налична в момента. Моля, опитайте отново след малко."
@@ -540,6 +548,10 @@ msgstr "Албански"
 #: src/features/applications/components/export-applications-sheet.tsx
 msgid "All applications (including archived)"
 msgstr "Всички приложения (включително архивирани)"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "All Role Workspaces"
+msgstr ""
 
 #: src/features/auth/pages/consent.tsx
 msgid "Allow access"
@@ -717,6 +729,7 @@ msgid "Archive"
 msgstr "Архивиране"
 
 #: src/routes/dashboard/applications/index.tsx
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
 msgid "Archived"
 msgstr "Архивирано"
 
@@ -850,6 +863,10 @@ msgstr "Обратно към настройките за удостоверяв
 #: src/routes/agent/-components/thread-sidebar.tsx
 msgid "Back to resumes"
 msgstr "Обратно към автобиографиите"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Back to Role Workspaces"
+msgstr ""
 
 #. Action returning the visitor to the sign-in page after a failed sign-in
 #. Secondary navigation button on 2FA verification screen
@@ -1113,6 +1130,10 @@ msgstr "Изберете запазено мотивационно писмо"
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Choose an application"
 msgstr "Изберете приложение"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Choose an occupational direction, then describe the role you are targeting now."
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
 msgid "Choose PDF, DOCX, Markdown, or JSON. Export your resume and cover letter separately when available."
@@ -1445,6 +1466,10 @@ msgstr "Не можа да се провери връзката. Провере�
 msgid "Couldn't add the application. Please try again."
 msgstr "Кандидатурата не можа да бъде добавена. Моля, опитайте отново."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Couldn't create the Role Workspace. Check the form and try again."
+msgstr ""
+
 #: src/features/applications/components/application-actions-menu.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
 msgid "Couldn't delete the application."
@@ -1453,6 +1478,10 @@ msgstr "Кандидатурата не можа да бъде изтрита."
 #: src/features/applications/components/application-detail-sheet.tsx
 msgid "Couldn't delete the timeline entry."
 msgstr "Записът в хронологията не можа да бъде изтрит."
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Couldn't load Role Workspaces."
+msgstr ""
 
 #: src/features/applications/components/board.tsx
 msgid "Couldn't move the application. Please try again."
@@ -1618,6 +1647,10 @@ msgstr "Създаване на нов елемент от резюмето"
 msgid "Create a new volunteer experience"
 msgstr "Създаване на нов доброволчески опит"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create a Role Workspace"
+msgstr ""
+
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "Създаване на примерна автобиография"
@@ -1644,6 +1677,10 @@ msgstr "Създайте такъв сега"
 msgid "Create resume with options"
 msgstr "Създаване на резюме с опции"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create workspace"
+msgstr ""
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Create, customize, and share your resume. Reactive Resume is open source, it doesn't track you, and it stays free."
 msgstr "Създайте, персонализирайте и споделете автобиографията си. Reactive Resume е с отворен код, не ви проследява и остава безплатен."
@@ -1665,6 +1702,10 @@ msgstr "Създаване на вашия API ключ..."
 msgid "Creating your resume..."
 msgstr "Създаване на вашата автобиография..."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Creating…"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Crop and Upload"
 msgstr "Изрежете и качете"
@@ -1676,6 +1717,10 @@ msgstr "Изрязване на снимката"
 #: src/features/applications/components/import-applications-sheet.tsx
 msgid "CSV data"
 msgstr "CSV данни"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Current constraints for this occupational direction."
+msgstr ""
 
 #: src/features/applications/components/export-applications-sheet.tsx
 msgid "Current filters"
@@ -2000,6 +2045,10 @@ msgstr "Изтегляне на PDF"
 msgid "Downloads"
 msgstr "Изтегляния"
 
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+msgid "Draft"
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Draft a cover letter"
 msgstr "Изгответе мотивационно писмо"
@@ -2272,6 +2321,16 @@ msgstr "Излизане от цял екран"
 #: src/libs/resume/section.tsx
 msgid "Experience"
 msgstr "Професионален опит"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Experimental"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Experimental roles do not have the evaluated quality guarantee of supported roles."
+msgstr ""
 
 #: src/dialogs/api-key/create.tsx
 msgid "Expires in"
@@ -3370,6 +3429,14 @@ msgstr "Зареждане на доставчици…"
 msgid "Loading resumes…"
 msgstr "Зареждане на автобиографии…"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Loading Role Workspace…"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Loading Role Workspaces…"
+msgstr ""
+
 #: src/features/command-palette/pages/resumes.tsx
 #: src/routes/agent/-components/thread-sidebar.tsx
 msgid "Loading threads…"
@@ -3386,6 +3453,7 @@ msgstr "Зареждане…"
 #: src/features/applications/components/table-view.tsx
 #: src/features/ats-checker/parse-preview.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
 msgid "Location"
 msgstr "Местоположение"
 
@@ -3744,6 +3812,10 @@ msgstr "Няма автобиографии, които да отговарят 
 msgid "No resumes yet."
 msgstr "Все още няма автобиографии."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "No Role Workspaces yet. Create your first direction above."
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "No saved versions yet."
 msgstr "Все още няма запазени версии."
@@ -3966,6 +4038,10 @@ msgstr "Организация"
 #: src/components/input/rich-input.tsx
 msgid "Original table formatting is preserved. This content is read-only because it cannot be edited safely."
 msgstr "Оригиналното форматиране на таблицата се запазва. Това съдържание е само за четене, защото не може да се редактира безопасно."
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Other role — Experimental"
+msgstr ""
 
 #: src/features/ats-checker/report/score-header.tsx
 msgid "out of 100"
@@ -4708,9 +4784,26 @@ msgstr "Роля / длъжност"
 msgid "Role A–Z"
 msgstr "Роля A–Z"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role name"
+msgstr ""
+
 #: src/dialogs/resume/sections/experience.tsx
 msgid "Role Progression"
 msgstr "Кариерно развитие"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Role Target"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role Workspace created."
+msgstr ""
+
+#: src/routes/dashboard/-components/sidebar.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role Workspaces"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Romanian"
@@ -4980,6 +5073,10 @@ msgstr "Изпраща текста, вече извлечен от вашия P
 #: src/features/ats-checker/ai-review/ai-review-card.tsx
 msgid "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
 msgstr "Изпраща текста, вече извлечен от вашия PDF, заедно с поставеното описание на длъжността, до AI доставчика, който изберете по-долу. Самият PDF файл никога не се качва."
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Seniority"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Separator"
@@ -5354,6 +5451,11 @@ msgstr "Разстояние (вертикално)"
 msgid "Spanish"
 msgstr "Испански"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Specialization"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Spell the month, as in \"Mar 2022\"."
 msgstr "Изпишете месеца с думи, например „Mar 2022“."
@@ -5561,6 +5663,19 @@ msgstr "Адаптирането не бе успешно."
 #: src/libs/locale.ts
 msgid "Tamil"
 msgstr "Тамилски"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target location"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target Role"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target seniority"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Telugu"
@@ -5993,6 +6108,10 @@ msgstr "Този отзив е мнение на езиков модел за в
 msgid "This role has no description."
 msgstr "Тази роля няма описание."
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "This Role Workspace could not be loaded."
+msgstr ""
+
 #: src/libs/resume/ats.ts
 msgid "This section has content but never appears."
 msgstr "Този раздел има съдържание, но никога не се появява."
@@ -6137,6 +6256,8 @@ msgid "Translations"
 msgstr "Преводи"
 
 #: src/components/layout/error-screen.tsx
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Try again"
 msgstr "Опитай отново"
 
@@ -6725,6 +6846,10 @@ msgstr "Работа с OpenAI"
 msgid "Working…"
 msgstr "Работи…"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Workspace setup is saved. Sources and assessment arrive in the next steps."
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Worth a shot"
 msgstr "Струва си да опитате"
@@ -6945,6 +7070,10 @@ msgstr "Автобиографията ви използва „I“ и „my“
 msgid "Your resume's public URL is protected by a password. Share the password only with people you trust."
 msgstr "Публичният URL адрес на автобиографията ви е защитен с парола. Споделяйте паролата само с хора, на които се доверявате."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Your Role Workspaces"
+msgstr ""
+
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Your saved cover letter will remain unchanged."
 msgstr "Вашето запазено мотивационно писмо ще остане непроменено."
@@ -6973,4 +7102,3 @@ msgstr "Намаляване"
 #: src/libs/locale.ts
 msgid "Zulu"
 msgstr "Зулуски"
-

@@ -274,6 +274,10 @@ msgstr "動作"
 msgid "Activate Semantic CSS"
 msgstr "啟用語意化 CSS"
 
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+msgid "Active"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/dock.tsx
 msgid "Actual size (100%)"
 msgstr "實際尺寸（100%）"
@@ -497,6 +501,10 @@ msgstr "代理人"
 msgid "AI"
 msgstr "AI"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "AI Agent Engineer — Supported"
+msgstr ""
+
 #: src/routes/agent/-components/new-thread-setup.tsx
 msgid "AI agent setup is unavailable right now. Please try again in a moment."
 msgstr "目前無法設定人工智慧代理，請稍後再試。"
@@ -540,6 +548,10 @@ msgstr "阿爾巴尼亞語"
 #: src/features/applications/components/export-applications-sheet.tsx
 msgid "All applications (including archived)"
 msgstr "所有應徵紀錄（含已封存）"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "All Role Workspaces"
+msgstr ""
 
 #: src/features/auth/pages/consent.tsx
 msgid "Allow access"
@@ -717,6 +729,7 @@ msgid "Archive"
 msgstr "封存"
 
 #: src/routes/dashboard/applications/index.tsx
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
 msgid "Archived"
 msgstr "已封存"
 
@@ -850,6 +863,10 @@ msgstr "返回驗證設定"
 #: src/routes/agent/-components/thread-sidebar.tsx
 msgid "Back to resumes"
 msgstr "返回簡歷頁面"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Back to Role Workspaces"
+msgstr ""
 
 #. Action returning the visitor to the sign-in page after a failed sign-in
 #. Secondary navigation button on 2FA verification screen
@@ -1113,6 +1130,10 @@ msgstr "選擇已儲存的求職信"
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Choose an application"
 msgstr "選擇應徵紀錄"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Choose an occupational direction, then describe the role you are targeting now."
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
 msgid "Choose PDF, DOCX, Markdown, or JSON. Export your resume and cover letter separately when available."
@@ -1445,6 +1466,10 @@ msgstr "連線驗證失敗。請檢查 API 金鑰、模型和基本 URL。"
 msgid "Couldn't add the application. Please try again."
 msgstr "無法新增應徵紀錄。請再試一次。"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Couldn't create the Role Workspace. Check the form and try again."
+msgstr ""
+
 #: src/features/applications/components/application-actions-menu.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
 msgid "Couldn't delete the application."
@@ -1453,6 +1478,10 @@ msgstr "無法刪除應徵紀錄。"
 #: src/features/applications/components/application-detail-sheet.tsx
 msgid "Couldn't delete the timeline entry."
 msgstr "無法刪除時間軸項目。"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Couldn't load Role Workspaces."
+msgstr ""
 
 #: src/features/applications/components/board.tsx
 msgid "Couldn't move the application. Please try again."
@@ -1618,6 +1647,10 @@ msgstr "建立新的摘要項目"
 msgid "Create a new volunteer experience"
 msgstr "建立新的志工經歷"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create a Role Workspace"
+msgstr ""
+
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "建立履歷範例"
@@ -1644,6 +1677,10 @@ msgstr "立即建立"
 msgid "Create resume with options"
 msgstr "使用選項建立履歷表"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create workspace"
+msgstr ""
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Create, customize, and share your resume. Reactive Resume is open source, it doesn't track you, and it stays free."
 msgstr "建立、自訂並分享您的履歷。Reactive Resume 是開放原始碼的，不會追蹤您，而且一直免費。"
@@ -1665,6 +1702,10 @@ msgstr "正在建立您的 API Key…"
 msgid "Creating your resume..."
 msgstr "正在建立您的履歷…"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Creating…"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Crop and Upload"
 msgstr "裁切並上傳"
@@ -1676,6 +1717,10 @@ msgstr "裁切圖片"
 #: src/features/applications/components/import-applications-sheet.tsx
 msgid "CSV data"
 msgstr "CSV 資料"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Current constraints for this occupational direction."
+msgstr ""
 
 #: src/features/applications/components/export-applications-sheet.tsx
 msgid "Current filters"
@@ -2000,6 +2045,10 @@ msgstr "下載 PDF"
 msgid "Downloads"
 msgstr "下載"
 
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+msgid "Draft"
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Draft a cover letter"
 msgstr "撰寫求職信草稿"
@@ -2272,6 +2321,16 @@ msgstr "退出全螢幕"
 #: src/libs/resume/section.tsx
 msgid "Experience"
 msgstr "經歷"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Experimental"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Experimental roles do not have the evaluated quality guarantee of supported roles."
+msgstr ""
 
 #: src/dialogs/api-key/create.tsx
 msgid "Expires in"
@@ -3370,6 +3429,14 @@ msgstr "正在載入提供者…"
 msgid "Loading resumes…"
 msgstr "正在載入履歷…"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Loading Role Workspace…"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Loading Role Workspaces…"
+msgstr ""
+
 #: src/features/command-palette/pages/resumes.tsx
 #: src/routes/agent/-components/thread-sidebar.tsx
 msgid "Loading threads…"
@@ -3386,6 +3453,7 @@ msgstr "載入中…"
 #: src/features/applications/components/table-view.tsx
 #: src/features/ats-checker/parse-preview.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
 msgid "Location"
 msgstr "地點"
 
@@ -3744,6 +3812,10 @@ msgstr "沒有履歷符合您的搜尋條件。"
 msgid "No resumes yet."
 msgstr "尚無履歷。"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "No Role Workspaces yet. Create your first direction above."
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "No saved versions yet."
 msgstr "暫無已儲存版本。"
@@ -3966,6 +4038,10 @@ msgstr "組織"
 #: src/components/input/rich-input.tsx
 msgid "Original table formatting is preserved. This content is read-only because it cannot be edited safely."
 msgstr "原始表格格式已保留。由於無法安全編輯，此內容為唯讀。"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Other role — Experimental"
+msgstr ""
 
 #: src/features/ats-checker/report/score-header.tsx
 msgid "out of 100"
@@ -4708,9 +4784,26 @@ msgstr "職位 / 職稱"
 msgid "Role A–Z"
 msgstr "職位 A–Z"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role name"
+msgstr ""
+
 #: src/dialogs/resume/sections/experience.tsx
 msgid "Role Progression"
 msgstr "職位晉升"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Role Target"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role Workspace created."
+msgstr ""
+
+#: src/routes/dashboard/-components/sidebar.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role Workspaces"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Romanian"
@@ -4980,6 +5073,10 @@ msgstr "將已從您的 PDF 中擷取的文字傳送給您在下方選擇的 AI 
 #: src/features/ats-checker/ai-review/ai-review-card.tsx
 msgid "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
 msgstr "將已從您的 PDF 中擷取的文字，連同您貼上的職缺描述，一起傳送給您在下方選擇的 AI 提供者。PDF 檔案本身絕不會被上傳。"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Seniority"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Separator"
@@ -5354,6 +5451,11 @@ msgstr "間距（垂直）"
 msgid "Spanish"
 msgstr "西班牙語"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Specialization"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Spell the month, as in \"Mar 2022\"."
 msgstr "把月份拼寫出來，例如「2022 年 3 月」。"
@@ -5561,6 +5663,19 @@ msgstr "調整失敗。"
 #: src/libs/locale.ts
 msgid "Tamil"
 msgstr "泰米爾語"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target location"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target Role"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target seniority"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Telugu"
@@ -5993,6 +6108,10 @@ msgstr "這則評論是語言模型對您文字的看法。它不會改變上面
 msgid "This role has no description."
 msgstr "這個角色沒有描述。"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "This Role Workspace could not be loaded."
+msgstr ""
+
 #: src/libs/resume/ats.ts
 msgid "This section has content but never appears."
 msgstr "該部分有內容但從未出現。"
@@ -6137,6 +6256,8 @@ msgid "Translations"
 msgstr "翻譯"
 
 #: src/components/layout/error-screen.tsx
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Try again"
 msgstr "再試一次"
 
@@ -6725,6 +6846,10 @@ msgstr "OpenAI"
 msgid "Working…"
 msgstr "正在運作…"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Workspace setup is saved. Sources and assessment arrive in the next steps."
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Worth a shot"
 msgstr "值得一試"
@@ -6945,6 +7070,10 @@ msgstr "您的履歷使用了「我」和「我的」這類詞。"
 msgid "Your resume's public URL is protected by a password. Share the password only with people you trust."
 msgstr "您履歷的公開 URL 受密碼保護。請只把密碼分享給您信任的人。"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Your Role Workspaces"
+msgstr ""
+
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Your saved cover letter will remain unchanged."
 msgstr "您儲存的求職信內容將保持不變。"
@@ -6973,4 +7102,3 @@ msgstr "縮小"
 #: src/libs/locale.ts
 msgid "Zulu"
 msgstr "祖魯語"
-

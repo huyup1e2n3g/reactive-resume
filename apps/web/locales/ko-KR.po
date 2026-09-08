@@ -274,6 +274,10 @@ msgstr "작업"
 msgid "Activate Semantic CSS"
 msgstr "시맨틱 CSS 활성화"
 
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+msgid "Active"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/dock.tsx
 msgid "Actual size (100%)"
 msgstr "실제 크기(100%)"
@@ -497,6 +501,10 @@ msgstr "자치령 대표"
 msgid "AI"
 msgstr "AI"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "AI Agent Engineer — Supported"
+msgstr ""
+
 #: src/routes/agent/-components/new-thread-setup.tsx
 msgid "AI agent setup is unavailable right now. Please try again in a moment."
 msgstr "현재 AI 에이전트 설정이 불가능합니다. 잠시 후 다시 시도해 주세요."
@@ -540,6 +548,10 @@ msgstr "알바니아어"
 #: src/features/applications/components/export-applications-sheet.tsx
 msgid "All applications (including archived)"
 msgstr "모든 지원 내역(보관된 항목 포함)"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "All Role Workspaces"
+msgstr ""
 
 #: src/features/auth/pages/consent.tsx
 msgid "Allow access"
@@ -717,6 +729,7 @@ msgid "Archive"
 msgstr "보관"
 
 #: src/routes/dashboard/applications/index.tsx
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
 msgid "Archived"
 msgstr "보관됨"
 
@@ -850,6 +863,10 @@ msgstr "인증 설정으로 돌아가기"
 #: src/routes/agent/-components/thread-sidebar.tsx
 msgid "Back to resumes"
 msgstr "이력서로 돌아가기"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Back to Role Workspaces"
+msgstr ""
 
 #. Action returning the visitor to the sign-in page after a failed sign-in
 #. Secondary navigation button on 2FA verification screen
@@ -1113,6 +1130,10 @@ msgstr "저장된 커버레터 선택"
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Choose an application"
 msgstr "지원 내역 선택"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Choose an occupational direction, then describe the role you are targeting now."
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
 msgid "Choose PDF, DOCX, Markdown, or JSON. Export your resume and cover letter separately when available."
@@ -1445,6 +1466,10 @@ msgstr "연결을 확인할 수 없습니다. API 키, 모델 및 기본 URL을 
 msgid "Couldn't add the application. Please try again."
 msgstr "지원을 추가할 수 없습니다. 다시 시도하세요."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Couldn't create the Role Workspace. Check the form and try again."
+msgstr ""
+
 #: src/features/applications/components/application-actions-menu.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
 msgid "Couldn't delete the application."
@@ -1453,6 +1478,10 @@ msgstr "지원을 삭제할 수 없습니다."
 #: src/features/applications/components/application-detail-sheet.tsx
 msgid "Couldn't delete the timeline entry."
 msgstr "타임라인 항목을 삭제할 수 없습니다."
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Couldn't load Role Workspaces."
+msgstr ""
 
 #: src/features/applications/components/board.tsx
 msgid "Couldn't move the application. Please try again."
@@ -1618,6 +1647,10 @@ msgstr "새 요약 항목 만들기"
 msgid "Create a new volunteer experience"
 msgstr "새 봉사 경험 만들기"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create a Role Workspace"
+msgstr ""
+
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "샘플 이력서 만들기"
@@ -1644,6 +1677,10 @@ msgstr "지금 만들기"
 msgid "Create resume with options"
 msgstr "옵션으로 이력서 만들기"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create workspace"
+msgstr ""
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Create, customize, and share your resume. Reactive Resume is open source, it doesn't track you, and it stays free."
 msgstr "이력서를 만들고, 원하는 대로 꾸미고, 공유하세요. Reactive Resume은 오픈 소스이며, 사용자를 추적하지 않고, 계속 무료입니다."
@@ -1665,6 +1702,10 @@ msgstr "API 키를 생성하는 중입니다..."
 msgid "Creating your resume..."
 msgstr "이력서를 생성하는 중입니다..."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Creating…"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Crop and Upload"
 msgstr "사진 자르고 업로드"
@@ -1676,6 +1717,10 @@ msgstr "사진을 잘라내세요"
 #: src/features/applications/components/import-applications-sheet.tsx
 msgid "CSV data"
 msgstr "CSV 데이터"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Current constraints for this occupational direction."
+msgstr ""
 
 #: src/features/applications/components/export-applications-sheet.tsx
 msgid "Current filters"
@@ -2000,6 +2045,10 @@ msgstr "PDF 다운로드"
 msgid "Downloads"
 msgstr "다운로드"
 
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+msgid "Draft"
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Draft a cover letter"
 msgstr "커버레터 초안 작성"
@@ -2272,6 +2321,16 @@ msgstr "전체 화면 종료"
 #: src/libs/resume/section.tsx
 msgid "Experience"
 msgstr "경력"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Experimental"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Experimental roles do not have the evaluated quality guarantee of supported roles."
+msgstr ""
 
 #: src/dialogs/api-key/create.tsx
 msgid "Expires in"
@@ -3370,6 +3429,14 @@ msgstr "공급자 로딩 중…"
 msgid "Loading resumes…"
 msgstr "이력서 로딩 중…"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Loading Role Workspace…"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Loading Role Workspaces…"
+msgstr ""
+
 #: src/features/command-palette/pages/resumes.tsx
 #: src/routes/agent/-components/thread-sidebar.tsx
 msgid "Loading threads…"
@@ -3386,6 +3453,7 @@ msgstr "… 로딩 중"
 #: src/features/applications/components/table-view.tsx
 #: src/features/ats-checker/parse-preview.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
 msgid "Location"
 msgstr "위치"
 
@@ -3744,6 +3812,10 @@ msgstr "검색 조건에 맞는 이력서가 없습니다."
 msgid "No resumes yet."
 msgstr "아직 이력서가 없습니다."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "No Role Workspaces yet. Create your first direction above."
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "No saved versions yet."
 msgstr "아직 저장된 버전이 없습니다."
@@ -3966,6 +4038,10 @@ msgstr "기관"
 #: src/components/input/rich-input.tsx
 msgid "Original table formatting is preserved. This content is read-only because it cannot be edited safely."
 msgstr "원본 표 서식이 유지됩니다. 안전하게 편집할 수 없어 이 콘텐츠는 읽기 전용입니다."
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Other role — Experimental"
+msgstr ""
 
 #: src/features/ats-checker/report/score-header.tsx
 msgid "out of 100"
@@ -4708,9 +4784,26 @@ msgstr "직무 / 직책"
 msgid "Role A–Z"
 msgstr "직무 A–Z"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role name"
+msgstr ""
+
 #: src/dialogs/resume/sections/experience.tsx
 msgid "Role Progression"
 msgstr "역할 진행"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Role Target"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role Workspace created."
+msgstr ""
+
+#: src/routes/dashboard/-components/sidebar.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role Workspaces"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Romanian"
@@ -4980,6 +5073,10 @@ msgstr "PDF에서 이미 추출된 텍스트를 아래에서 선택한 AI 제공
 #: src/features/ats-checker/ai-review/ai-review-card.tsx
 msgid "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
 msgstr "PDF에서 이미 추출된 텍스트와 붙여넣은 채용 공고를 아래에서 선택한 AI 제공업체로 전송합니다. PDF 파일 자체는 업로드되지 않습니다."
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Seniority"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Separator"
@@ -5354,6 +5451,11 @@ msgstr "간격(세로)"
 msgid "Spanish"
 msgstr "스페인어"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Specialization"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Spell the month, as in \"Mar 2022\"."
 msgstr "\"2022년 3월\"처럼 월을 정확히 표기하세요."
@@ -5561,6 +5663,19 @@ msgstr "맞춤 조정에 실패했습니다."
 #: src/libs/locale.ts
 msgid "Tamil"
 msgstr "타밀어"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target location"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target Role"
+msgstr ""
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target seniority"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Telugu"
@@ -5993,6 +6108,10 @@ msgstr "이 검토는 당신의 글에 대한 언어 모델의 의견입니다. 
 msgid "This role has no description."
 msgstr "이 역할에는 설명이 없습니다."
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "This Role Workspace could not be loaded."
+msgstr ""
+
 #: src/libs/resume/ats.ts
 msgid "This section has content but never appears."
 msgstr "이 섹션에는 콘텐츠가 있지만 표시되지 않습니다."
@@ -6137,6 +6256,8 @@ msgid "Translations"
 msgstr "번역"
 
 #: src/components/layout/error-screen.tsx
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Try again"
 msgstr "다시 시도해 보세요"
 
@@ -6725,6 +6846,10 @@ msgstr "OpenAI에서 근무"
 msgid "Working…"
 msgstr "작업 중…"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Workspace setup is saved. Sources and assessment arrive in the next steps."
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Worth a shot"
 msgstr "시도해 볼 만함"
@@ -6945,6 +7070,10 @@ msgstr "이력서에서 \"I\"와 \"my\"를 사용하고 있습니다."
 msgid "Your resume's public URL is protected by a password. Share the password only with people you trust."
 msgstr "이력서의 공개 URL은 비밀번호로 보호되어 있습니다. 비밀번호는 믿을 수 있는 사람에게만 알려주세요."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Your Role Workspaces"
+msgstr ""
+
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Your saved cover letter will remain unchanged."
 msgstr "저장된 커버레터는 변경되지 않습니다."
@@ -6973,4 +7102,3 @@ msgstr "축소"
 #: src/libs/locale.ts
 msgid "Zulu"
 msgstr "줄루어"
-

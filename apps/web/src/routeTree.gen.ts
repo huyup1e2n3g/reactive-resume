@@ -36,6 +36,8 @@ import { Route as TemplatesSplatRouteImport } from "./routes/templates/$";
 import { Route as BuilderResumeIdIndexRouteImport } from "./routes/builder/$resumeId/index";
 import { Route as DashboardApplicationsIndexRouteImport } from "./routes/dashboard/applications/index";
 import { Route as DashboardResumesIndexRouteImport } from "./routes/dashboard/resumes/index";
+import { Route as DashboardRoleWorkspacesIndexRouteImport } from "./routes/dashboard/role-workspaces/index";
+import { Route as DashboardRoleWorkspacesWorkspaceIdRouteImport } from "./routes/dashboard/role-workspaces/$workspaceId";
 import { Route as DashboardSettingsAccountRouteImport } from "./routes/dashboard/settings/account";
 import { Route as DashboardSettingsApiKeysRouteImport } from "./routes/dashboard/settings/api-keys";
 import { Route as DashboardSettingsIntegrationsRouteRouteImport } from "./routes/dashboard/settings/integrations/route";
@@ -179,6 +181,18 @@ const DashboardResumesIndexRoute = DashboardResumesIndexRouteImport.update({
   path: "/resumes/",
   getParentRoute: () => DashboardRouteRoute,
 } as any);
+const DashboardRoleWorkspacesIndexRoute =
+  DashboardRoleWorkspacesIndexRouteImport.update({
+    id: "/role-workspaces/",
+    path: "/role-workspaces/",
+    getParentRoute: () => DashboardRouteRoute,
+  } as any);
+const DashboardRoleWorkspacesWorkspaceIdRoute =
+  DashboardRoleWorkspacesWorkspaceIdRouteImport.update({
+    id: "/role-workspaces/$workspaceId",
+    path: "/role-workspaces/$workspaceId",
+    getParentRoute: () => DashboardRouteRoute,
+  } as any);
 const DashboardSettingsAccountRoute =
   DashboardSettingsAccountRouteImport.update({
     id: "/settings/account",
@@ -247,6 +261,7 @@ export interface FileRoutesByFullPath {
   "/auth/": typeof AuthIndexRoute;
   "/dashboard/": typeof DashboardIndexRoute;
   "/dashboard/settings/integrations": typeof DashboardSettingsIntegrationsRouteRoute;
+  "/dashboard/role-workspaces/$workspaceId": typeof DashboardRoleWorkspacesWorkspaceIdRoute;
   "/dashboard/settings/account": typeof DashboardSettingsAccountRoute;
   "/dashboard/settings/api-keys": typeof DashboardSettingsApiKeysRoute;
   "/dashboard/settings/job-search": typeof DashboardSettingsJobSearchRoute;
@@ -255,6 +270,7 @@ export interface FileRoutesByFullPath {
   "/builder/$resumeId/": typeof BuilderResumeIdIndexRoute;
   "/dashboard/applications/": typeof DashboardApplicationsIndexRoute;
   "/dashboard/resumes/": typeof DashboardResumesIndexRoute;
+  "/dashboard/role-workspaces/": typeof DashboardRoleWorkspacesIndexRoute;
   "/dashboard/settings/authentication/": typeof DashboardSettingsAuthenticationIndexRoute;
 }
 export interface FileRoutesByTo {
@@ -278,6 +294,7 @@ export interface FileRoutesByTo {
   "/auth": typeof AuthIndexRoute;
   "/dashboard": typeof DashboardIndexRoute;
   "/dashboard/settings/integrations": typeof DashboardSettingsIntegrationsRouteRoute;
+  "/dashboard/role-workspaces/$workspaceId": typeof DashboardRoleWorkspacesWorkspaceIdRoute;
   "/dashboard/settings/account": typeof DashboardSettingsAccountRoute;
   "/dashboard/settings/api-keys": typeof DashboardSettingsApiKeysRoute;
   "/dashboard/settings/job-search": typeof DashboardSettingsJobSearchRoute;
@@ -286,6 +303,7 @@ export interface FileRoutesByTo {
   "/builder/$resumeId": typeof BuilderResumeIdIndexRoute;
   "/dashboard/applications": typeof DashboardApplicationsIndexRoute;
   "/dashboard/resumes": typeof DashboardResumesIndexRoute;
+  "/dashboard/role-workspaces": typeof DashboardRoleWorkspacesIndexRoute;
   "/dashboard/settings/authentication": typeof DashboardSettingsAuthenticationIndexRoute;
 }
 export interface FileRoutesById {
@@ -315,6 +333,7 @@ export interface FileRoutesById {
   "/auth/": typeof AuthIndexRoute;
   "/dashboard/": typeof DashboardIndexRoute;
   "/dashboard/settings/integrations": typeof DashboardSettingsIntegrationsRouteRoute;
+  "/dashboard/role-workspaces/$workspaceId": typeof DashboardRoleWorkspacesWorkspaceIdRoute;
   "/dashboard/settings/account": typeof DashboardSettingsAccountRoute;
   "/dashboard/settings/api-keys": typeof DashboardSettingsApiKeysRoute;
   "/dashboard/settings/job-search": typeof DashboardSettingsJobSearchRoute;
@@ -323,6 +342,7 @@ export interface FileRoutesById {
   "/builder/$resumeId/": typeof BuilderResumeIdIndexRoute;
   "/dashboard/applications/": typeof DashboardApplicationsIndexRoute;
   "/dashboard/resumes/": typeof DashboardResumesIndexRoute;
+  "/dashboard/role-workspaces/": typeof DashboardRoleWorkspacesIndexRoute;
   "/dashboard/settings/authentication/": typeof DashboardSettingsAuthenticationIndexRoute;
 }
 export interface FileRouteTypes {
@@ -352,6 +372,7 @@ export interface FileRouteTypes {
     | "/auth/"
     | "/dashboard/"
     | "/dashboard/settings/integrations"
+    | "/dashboard/role-workspaces/$workspaceId"
     | "/dashboard/settings/account"
     | "/dashboard/settings/api-keys"
     | "/dashboard/settings/job-search"
@@ -360,6 +381,7 @@ export interface FileRouteTypes {
     | "/builder/$resumeId/"
     | "/dashboard/applications/"
     | "/dashboard/resumes/"
+    | "/dashboard/role-workspaces/"
     | "/dashboard/settings/authentication/";
   fileRoutesByTo: FileRoutesByTo;
   to:
@@ -383,6 +405,7 @@ export interface FileRouteTypes {
     | "/auth"
     | "/dashboard"
     | "/dashboard/settings/integrations"
+    | "/dashboard/role-workspaces/$workspaceId"
     | "/dashboard/settings/account"
     | "/dashboard/settings/api-keys"
     | "/dashboard/settings/job-search"
@@ -391,6 +414,7 @@ export interface FileRouteTypes {
     | "/builder/$resumeId"
     | "/dashboard/applications"
     | "/dashboard/resumes"
+    | "/dashboard/role-workspaces"
     | "/dashboard/settings/authentication";
   id:
     | "__root__"
@@ -419,6 +443,7 @@ export interface FileRouteTypes {
     | "/auth/"
     | "/dashboard/"
     | "/dashboard/settings/integrations"
+    | "/dashboard/role-workspaces/$workspaceId"
     | "/dashboard/settings/account"
     | "/dashboard/settings/api-keys"
     | "/dashboard/settings/job-search"
@@ -427,6 +452,7 @@ export interface FileRouteTypes {
     | "/builder/$resumeId/"
     | "/dashboard/applications/"
     | "/dashboard/resumes/"
+    | "/dashboard/role-workspaces/"
     | "/dashboard/settings/authentication/";
   fileRoutesById: FileRoutesById;
 }
@@ -631,6 +657,20 @@ declare module "@tanstack/react-router" {
       preLoaderRoute: typeof DashboardResumesIndexRouteImport;
       parentRoute: typeof DashboardRouteRoute;
     };
+    "/dashboard/role-workspaces/": {
+      id: "/dashboard/role-workspaces/";
+      path: "/role-workspaces";
+      fullPath: "/dashboard/role-workspaces/";
+      preLoaderRoute: typeof DashboardRoleWorkspacesIndexRouteImport;
+      parentRoute: typeof DashboardRouteRoute;
+    };
+    "/dashboard/role-workspaces/$workspaceId": {
+      id: "/dashboard/role-workspaces/$workspaceId";
+      path: "/role-workspaces/$workspaceId";
+      fullPath: "/dashboard/role-workspaces/$workspaceId";
+      preLoaderRoute: typeof DashboardRoleWorkspacesWorkspaceIdRouteImport;
+      parentRoute: typeof DashboardRouteRoute;
+    };
     "/dashboard/settings/account": {
       id: "/dashboard/settings/account";
       path: "/settings/account";
@@ -747,6 +787,7 @@ interface DashboardRouteRouteChildren {
   DashboardCoverLettersRoute: typeof DashboardCoverLettersRoute;
   DashboardIndexRoute: typeof DashboardIndexRoute;
   DashboardSettingsIntegrationsRouteRoute: typeof DashboardSettingsIntegrationsRouteRoute;
+  DashboardRoleWorkspacesWorkspaceIdRoute: typeof DashboardRoleWorkspacesWorkspaceIdRoute;
   DashboardSettingsAccountRoute: typeof DashboardSettingsAccountRoute;
   DashboardSettingsApiKeysRoute: typeof DashboardSettingsApiKeysRoute;
   DashboardSettingsJobSearchRoute: typeof DashboardSettingsJobSearchRoute;
@@ -754,6 +795,7 @@ interface DashboardRouteRouteChildren {
   DashboardSettingsProfileRoute: typeof DashboardSettingsProfileRoute;
   DashboardApplicationsIndexRoute: typeof DashboardApplicationsIndexRoute;
   DashboardResumesIndexRoute: typeof DashboardResumesIndexRoute;
+  DashboardRoleWorkspacesIndexRoute: typeof DashboardRoleWorkspacesIndexRoute;
   DashboardSettingsAuthenticationIndexRoute: typeof DashboardSettingsAuthenticationIndexRoute;
 }
 
@@ -762,6 +804,8 @@ const DashboardRouteRouteChildren: DashboardRouteRouteChildren = {
   DashboardIndexRoute: DashboardIndexRoute,
   DashboardSettingsIntegrationsRouteRoute:
     DashboardSettingsIntegrationsRouteRoute,
+  DashboardRoleWorkspacesWorkspaceIdRoute:
+    DashboardRoleWorkspacesWorkspaceIdRoute,
   DashboardSettingsAccountRoute: DashboardSettingsAccountRoute,
   DashboardSettingsApiKeysRoute: DashboardSettingsApiKeysRoute,
   DashboardSettingsJobSearchRoute: DashboardSettingsJobSearchRoute,
@@ -769,6 +813,7 @@ const DashboardRouteRouteChildren: DashboardRouteRouteChildren = {
   DashboardSettingsProfileRoute: DashboardSettingsProfileRoute,
   DashboardApplicationsIndexRoute: DashboardApplicationsIndexRoute,
   DashboardResumesIndexRoute: DashboardResumesIndexRoute,
+  DashboardRoleWorkspacesIndexRoute: DashboardRoleWorkspacesIndexRoute,
   DashboardSettingsAuthenticationIndexRoute:
     DashboardSettingsAuthenticationIndexRoute,
 };

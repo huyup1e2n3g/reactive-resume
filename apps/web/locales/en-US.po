@@ -269,6 +269,10 @@ msgstr "Actions"
 msgid "Activate Semantic CSS"
 msgstr "Activate Semantic CSS"
 
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+msgid "Active"
+msgstr "Active"
+
 #: src/routes/builder/$resumeId/-components/dock.tsx
 msgid "Actual size (100%)"
 msgstr "Actual size (100%)"
@@ -492,6 +496,10 @@ msgstr "Agents"
 msgid "AI"
 msgstr "AI"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "AI Agent Engineer — Supported"
+msgstr "AI Agent Engineer — Supported"
+
 #: src/routes/agent/-components/new-thread-setup.tsx
 msgid "AI agent setup is unavailable right now. Please try again in a moment."
 msgstr "AI agent setup is unavailable right now. Please try again in a moment."
@@ -535,6 +543,10 @@ msgstr "Albanian"
 #: src/features/applications/components/export-applications-sheet.tsx
 msgid "All applications (including archived)"
 msgstr "All applications (including archived)"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "All Role Workspaces"
+msgstr "All Role Workspaces"
 
 #: src/features/auth/pages/consent.tsx
 msgid "Allow access"
@@ -712,6 +724,7 @@ msgid "Archive"
 msgstr "Archive"
 
 #: src/routes/dashboard/applications/index.tsx
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
 msgid "Archived"
 msgstr "Archived"
 
@@ -845,6 +858,10 @@ msgstr "Back to authentication settings"
 #: src/routes/agent/-components/thread-sidebar.tsx
 msgid "Back to resumes"
 msgstr "Back to resumes"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Back to Role Workspaces"
+msgstr "Back to Role Workspaces"
 
 #. Action returning the visitor to the sign-in page after a failed sign-in
 #. Secondary navigation button on 2FA verification screen
@@ -1108,6 +1125,10 @@ msgstr "Choose a saved cover letter"
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Choose an application"
 msgstr "Choose an application"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Choose an occupational direction, then describe the role you are targeting now."
+msgstr "Choose an occupational direction, then describe the role you are targeting now."
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/export.tsx
 msgid "Choose PDF, DOCX, Markdown, or JSON. Export your resume and cover letter separately when available."
@@ -1440,6 +1461,10 @@ msgstr "Could not verify the connection. Check the API key, model, and base URL.
 msgid "Couldn't add the application. Please try again."
 msgstr "Couldn't add the application. Please try again."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Couldn't create the Role Workspace. Check the form and try again."
+msgstr "Couldn't create the Role Workspace. Check the form and try again."
+
 #: src/features/applications/components/application-actions-menu.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
 msgid "Couldn't delete the application."
@@ -1448,6 +1473,10 @@ msgstr "Couldn't delete the application."
 #: src/features/applications/components/application-detail-sheet.tsx
 msgid "Couldn't delete the timeline entry."
 msgstr "Couldn't delete the timeline entry."
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Couldn't load Role Workspaces."
+msgstr "Couldn't load Role Workspaces."
 
 #: src/features/applications/components/board.tsx
 msgid "Couldn't move the application. Please try again."
@@ -1613,6 +1642,10 @@ msgstr "Create a new summary item"
 msgid "Create a new volunteer experience"
 msgstr "Create a new volunteer experience"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create a Role Workspace"
+msgstr "Create a Role Workspace"
+
 #: src/dialogs/resume/index.tsx
 msgid "Create a Sample Resume"
 msgstr "Create a Sample Resume"
@@ -1639,6 +1672,10 @@ msgstr "Create one now"
 msgid "Create resume with options"
 msgstr "Create resume with options"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Create workspace"
+msgstr "Create workspace"
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Create, customize, and share your resume. Reactive Resume is open source, it doesn't track you, and it stays free."
 msgstr "Create, customize, and share your resume. Reactive Resume is open source, it doesn't track you, and it stays free."
@@ -1660,6 +1697,10 @@ msgstr "Creating your API key..."
 msgid "Creating your resume..."
 msgstr "Creating your resume..."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Creating…"
+msgstr "Creating…"
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Crop and Upload"
 msgstr "Crop and Upload"
@@ -1671,6 +1712,10 @@ msgstr "Crop picture"
 #: src/features/applications/components/import-applications-sheet.tsx
 msgid "CSV data"
 msgstr "CSV data"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Current constraints for this occupational direction."
+msgstr "Current constraints for this occupational direction."
 
 #: src/features/applications/components/export-applications-sheet.tsx
 msgid "Current filters"
@@ -1995,6 +2040,10 @@ msgstr "Download PDF"
 msgid "Downloads"
 msgstr "Downloads"
 
+#: src/routes/dashboard/role-workspaces/-workspace-status-badge.tsx
+msgid "Draft"
+msgstr "Draft"
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Draft a cover letter"
 msgstr "Draft a cover letter"
@@ -2267,6 +2316,16 @@ msgstr "Exit Fullscreen"
 #: src/libs/resume/section.tsx
 msgid "Experience"
 msgstr "Experience"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Experimental"
+msgstr "Experimental"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Experimental roles do not have the evaluated quality guarantee of supported roles."
+msgstr "Experimental roles do not have the evaluated quality guarantee of supported roles."
 
 #: src/dialogs/api-key/create.tsx
 msgid "Expires in"
@@ -3365,6 +3424,14 @@ msgstr "Loading providers…"
 msgid "Loading resumes…"
 msgstr "Loading resumes…"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Loading Role Workspace…"
+msgstr "Loading Role Workspace…"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Loading Role Workspaces…"
+msgstr "Loading Role Workspaces…"
+
 #: src/features/command-palette/pages/resumes.tsx
 #: src/routes/agent/-components/thread-sidebar.tsx
 msgid "Loading threads…"
@@ -3381,6 +3448,7 @@ msgstr "Loading…"
 #: src/features/applications/components/table-view.tsx
 #: src/features/ats-checker/parse-preview.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
 msgid "Location"
 msgstr "Location"
 
@@ -3739,6 +3807,10 @@ msgstr "No resumes match your search."
 msgid "No resumes yet."
 msgstr "No resumes yet."
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "No Role Workspaces yet. Create your first direction above."
+msgstr "No Role Workspaces yet. Create your first direction above."
+
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "No saved versions yet."
 msgstr "No saved versions yet."
@@ -3961,6 +4033,10 @@ msgstr "Organization"
 #: src/components/input/rich-input.tsx
 msgid "Original table formatting is preserved. This content is read-only because it cannot be edited safely."
 msgstr "Original table formatting is preserved. This content is read-only because it cannot be edited safely."
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Other role — Experimental"
+msgstr "Other role — Experimental"
 
 #: src/features/ats-checker/report/score-header.tsx
 msgid "out of 100"
@@ -4703,9 +4779,26 @@ msgstr "Role / title"
 msgid "Role A–Z"
 msgstr "Role A–Z"
 
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role name"
+msgstr "Role name"
+
 #: src/dialogs/resume/sections/experience.tsx
 msgid "Role Progression"
 msgstr "Role Progression"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Role Target"
+msgstr "Role Target"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role Workspace created."
+msgstr "Role Workspace created."
+
+#: src/routes/dashboard/-components/sidebar.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Role Workspaces"
+msgstr "Role Workspaces"
 
 #: src/libs/locale.ts
 msgid "Romanian"
@@ -4975,6 +5068,10 @@ msgstr "Sends the text already extracted from your PDF to the AI provider you ch
 #: src/features/ats-checker/ai-review/ai-review-card.tsx
 msgid "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
 msgstr "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Seniority"
+msgstr "Seniority"
 
 #: src/components/input/rich-input.tsx
 msgid "Separator"
@@ -5349,6 +5446,11 @@ msgstr "Spacing (Vertical)"
 msgid "Spanish"
 msgstr "Spanish"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Specialization"
+msgstr "Specialization"
+
 #: src/features/ats-checker/messages.ts
 msgid "Spell the month, as in \"Mar 2022\"."
 msgstr "Spell the month, as in \"Mar 2022\"."
@@ -5556,6 +5658,19 @@ msgstr "Tailoring failed."
 #: src/libs/locale.ts
 msgid "Tamil"
 msgstr "Tamil"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target location"
+msgstr "Target location"
+
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target Role"
+msgstr "Target Role"
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Target seniority"
+msgstr "Target seniority"
 
 #: src/libs/locale.ts
 msgid "Telugu"
@@ -5988,6 +6103,10 @@ msgstr "This review is a language model's opinion of your writing. It does not c
 msgid "This role has no description."
 msgstr "This role has no description."
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "This Role Workspace could not be loaded."
+msgstr "This Role Workspace could not be loaded."
+
 #: src/libs/resume/ats.ts
 msgid "This section has content but never appears."
 msgstr "This section has content but never appears."
@@ -6132,6 +6251,8 @@ msgid "Translations"
 msgstr "Translations"
 
 #: src/components/layout/error-screen.tsx
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+#: src/routes/dashboard/role-workspaces/index.tsx
 msgid "Try again"
 msgstr "Try again"
 
@@ -6720,6 +6841,10 @@ msgstr "Work OpenAI"
 msgid "Working…"
 msgstr "Working…"
 
+#: src/routes/dashboard/role-workspaces/$workspaceId.tsx
+msgid "Workspace setup is saved. Sources and assessment arrive in the next steps."
+msgstr "Workspace setup is saved. Sources and assessment arrive in the next steps."
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Worth a shot"
 msgstr "Worth a shot"
@@ -6939,6 +7064,10 @@ msgstr "Your resume uses \"I\" and \"my\"."
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Your resume's public URL is protected by a password. Share the password only with people you trust."
 msgstr "Your resume's public URL is protected by a password. Share the password only with people you trust."
+
+#: src/routes/dashboard/role-workspaces/index.tsx
+msgid "Your Role Workspaces"
+msgstr "Your Role Workspaces"
 
 #: src/features/cover-letters/editor-dialog.tsx
 msgid "Your saved cover letter will remain unchanged."
